@@ -26,7 +26,9 @@ function draw() {
     }
     
     text("Alan C", windowWidth - 50, windowHeight -10);
-    text(" Esta pagina fue hecha para que Vicky\npueda asustar a las tortugas de regreso.\n(Haz 1 click y luego GRTITAAA)", (windowWidth/2) - 110, 100);
+    text("Esta pagina fue hecha para que Vicky", (windowWidth/2) - 110 + 5, 100);
+    text("pueda asustar a las tortugas de regreso.", (windowWidth/2) - 110, 115);
+    text("(Haz 1 click y luego GRTITAAA)", (windowWidth/2) - 110 + 20, 130);
 }
 
 function touchStarted() {
