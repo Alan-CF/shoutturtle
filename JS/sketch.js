@@ -19,7 +19,7 @@ function setup() {
 function draw() {
     background(255,255,255);
     vol = mic.getLevel();
-    if (vol < 0.02) {
+    if (vol < 0.01) {
         image(imgs[0], (windowWidth/2 ) - 100, (windowHeight/2 ) - 100, 200, 200);
     } else {
         image(imgs[1], (windowWidth/2) - 100, (windowHeight/2) - 100, 200, 200);
