@@ -36,4 +36,3 @@ function touchStarted() {
   function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
   }
-    
